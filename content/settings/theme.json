@@ -1,0 +1,22 @@
+{
+  "colors": {
+    "brand": "#D9A679",
+    "brandDark": "#8B5E34",
+    "background": "#FFF6E9",
+    "darkBackground": "#1B120C",
+    "text": "#3A2A1A",
+    "textDark": "#F3E5D0"
+  },
+  "header": {
+    "sticky": true,
+    "transparent": false,
+    "logoAlign": "left",
+    "showThemeToggle": true
+  },
+  "footer": {
+    "showSocial": true,
+    "showNewsletter": true,
+    "copyright": "© 2025 Gengibrado. Feitos com carinho."
+  }
+}
+

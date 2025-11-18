@@ -1,0 +1,103 @@
+{
+  "topRibbon": {
+    "enabled": true,
+    "message": "🍪 Lote fresquinho do dia — entrega em até 2 horas na região (estoque limitado)!",
+    "closeable": true
+  },
+  "hero": {
+    "title": "Biscoitos Artesanais que Aquecem o Coração",
+    "subtitle": "Receitas caseiras, ingredientes naturais e aquele crocante perfeito. Peça agora e sinta a diferença.",
+    "ctaPrimary": "Comprar Agora",
+    "ctaSecondary": "Ver Sabores",
+    "image": "/cookies-hero.png",
+    "stats": [
+      { "number": "10k+", "label": "Biscoitos vendidos" },
+      { "number": "4.9/5", "label": "Avaliação média" }
+    ]
+  },
+  "about": {
+    "title": "Da Nossa Cozinha Para a Sua Casa",
+    "content": "Na Gengibrado acreditamos que cada biscoito conta uma história. Usamos ingredientes selecionados, receitas testadas e preparo artesanal — sem conservantes. Produzimos em pequenos lotes para garantir frescor e qualidade.",
+    "image": "/about-biscoitos.png"
+  },
+  "features": {
+    "title": "Nossos Diferenciais",
+    "subtitle": "Por que os clientes voltam sempre",
+    "items": [
+      {
+        "icon": "GiCookie",
+        "title": "Feito à mão",
+        "description": "Cada lote é preparado e assado com atenção aos detalhes."
+      },
+      {
+        "icon": "FaLeaf",
+        "title": "Ingredientes naturais",
+        "description": "Manteiga real, farinha selecionada e chocolate de qualidade."
+      },
+      {
+        "icon": "FaShippingFast",
+        "title": "Entrega rápida",
+        "description": "Opção de entrega no mesmo dia para a cidade — biscoitos chegando fresquinhos."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Sabores & Preços",
+    "subtitle": "Escolha seus preferidos — pacotes prontos para presentear ou para o dia a dia",
+    "plans": [
+      {
+        "name": "Clássicos",
+        "price": "R$ 19,90",
+        "period": "por pacote (150g)",
+        "features": ["Chocolate ao leite", "Açúcar e canela", "Manteiga tradicional"],
+        "cta": "Comprar",
+        "featured": false,
+        "image": "/produto-1.jpg"
+      },
+      {
+        "name": "Gourmet",
+        "price": "R$ 29,90",
+        "period": "por pacote (150g)",
+        "features": ["Chocolate belga", "Caramelo com flor de sal", "Embalagem premium"],
+        "cta": "Quero Agora",
+        "featured": true,
+        "image": "/produto-2.jpg"
+      },
+      {
+        "name": "Zero Açúcar",
+        "price": "R$ 24,90",
+        "period": "por pacote (140g)",
+        "features": ["Adoçado naturalmente", "Baixo teor calórico", "Sabor equilibrado"],
+        "cta": "Comprar",
+        "featured": false,
+        "image": "/produto-3.jpg"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "O Que Dizem Nossos Clientes",
+    "items": [
+      {
+        "name": "Ana Paula",
+        "role": "Compradora frequente",
+        "avatar": "",
+        "rating": 5,
+        "text": "Simplesmente os melhores biscoitos que já provei! Chegam sempre fresquinhos e a embalagem é um mimo."
+      },
+      {
+        "name": "Marcos Oliveira",
+        "role": "Cliente desde 2023",
+        "avatar": "",
+        "rating": 5,
+        "text": "O biscoito de caramelo é viciante — recomendo para presentear!"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto Para Experimentar?",
+    "subtitle": "Peça agora e receba ainda hoje — estoque diário limitado.",
+    "button": "Fazer Pedido",
+    "secondaryText": "Pagamento fácil. Entrega rápida. Satisfação garantida."
+  }
+}
+

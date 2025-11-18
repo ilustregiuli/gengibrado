@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #D9A679;
+  --brand-dark: #8B5E34;
+  --background: #FFF6E9;
+  --text: #3A2A1A;
+  --muted: #7B5A3A;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background-color: var(--background);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utility components */
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-2xl font-semibold transition-all duration-200 inline-flex items-center justify-center;
+  }
+
+  .btn-primary {
+    background: var(--brand);
+    color: white;
+    box-shadow: 0 6px 18px rgba(217,166,121,0.16);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px) scale(1.02);
+    opacity: 0.98;
+  }
+
+  .btn-outline {
+    border: 2px solid var(--brand);
+    color: var(--brand-dark);
+    background: transparent;
+  }
+
+  .btn-outline:hover {
+    background: var(--brand);
+    color: white;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-md p-6;
+  }
+
+  .prose {
+    @apply text-base leading-relaxed text-[var(--text)];
+  }
+
+  /* brand background for sections */
+  .bg-brand {
+    background: linear-gradient(180deg, rgba(217,166,121,0.12), transparent);
+  }
+}
+
+/* Dark mode adjustments (works with next-themes attribute 'class') */
+.dark body {
+  --background: #1B120C;
+  --text: #F3E5D0;
+  --muted: #CBB89C;
+  background-color: var(--background);
+}
+
+.dark .card {
+  @apply bg-gray-800;
+}
+
+.dark .text-muted-600 {
+  color: var(--muted);
+}
+
+.text-muted-600 {
+  color: var(--muted);
+}
+

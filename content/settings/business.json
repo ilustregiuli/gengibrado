@@ -1,0 +1,14 @@
+{
+  "brandName": "Gengibrado",
+  "brandTagline": "Feitos à mão. Feitos com carinho.",
+  "brandEmail": "contato@gengibrado.com",
+  "brandPhone": "+55 11 99999-0000",
+  "brandLogo": "/logo.png",
+  "social": {
+    "instagram": "https://instagram.com/gengibrado",
+    "facebook": "https://facebook.com/gengibrado",
+    "whatsapp": "https://wa.me/5511999990000"
+  },
+  "address": "Rua das Amêndoas, 123 - São Paulo, SP"
+}
+
